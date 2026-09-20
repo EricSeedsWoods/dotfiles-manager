@@ -1,0 +1,26 @@
+{
+  "name": "dotfiles-manager",
+  "version": "1.0.0",
+  "description": "A cross-platform dotfiles sync and bootstrap tool",
+  "main": "src/dotfiles-manager.js",
+  "bin": {
+    "dotfiles-manager": "src/dotfiles-manager.js"
+  },
+  "scripts": {
+    "start": "node src/dotfiles-manager.js",
+    "test": "node test/test.js",
+    "tracker": "node src/progress-tracker.js",
+    "roadmap": "node src/progress-tracker.js roadmap"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "cli",
+    "dotfiles",
+    "bootstrap",
+    "symlinks",
+    "dotfiles-manager"
+  ]
+}
